@@ -17,3 +17,7 @@ To build an autoencoder, we need :
 2. Decoding Method
 3. Loss Function to compare the outputs with the target
 
+## Architecture
+
+![image2](images/architecture.png)
+
