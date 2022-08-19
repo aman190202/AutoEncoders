@@ -1,4 +1,4 @@
 env/
 Google_Recaptcha_V2_Images_Dataset/
 *.ipynb_checkpoints
-*.DS_Store
+.DS_Store
