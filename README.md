@@ -1,5 +1,5 @@
 # AutoEncoders
-Learning all about autoencoders
+Trying to attempt converting black and white images/videos to RGB images/videos via the use of AutoEncoders.
 
 ## Introduction 
 
