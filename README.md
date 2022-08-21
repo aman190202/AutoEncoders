@@ -1,5 +1,5 @@
 # AutoEncoders
-Trying to attempt converting black and white images/videos to RGB images/videos via the use of AutoEncoders.
+Implementing variatons of Autoencoding algorithms 
 
 ## Introduction 
 
@@ -21,3 +21,13 @@ To build an autoencoder, we need :
 
 ![image2](images/architecture.png)
 
+## Model 1 : 
+
+Attempting to convert black and white images to colorful ones via training black and white encoded images to decode to a colorful one.
+
+### Dataset Creation :
+COCO-2017's validation dataset has been used over here to limited GPU capacity. Two different attempts are made via different model architecture. 
+
+1. The first model involves resizing images to dimensions of 256 and then converting them to black and white
+
+2. The second model involves resizing images to dimesions of 160x160.
