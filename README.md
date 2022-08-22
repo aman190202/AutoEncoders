@@ -1,5 +1,5 @@
-# AutoEncoders
-Implementing variatons of Autoencoding algorithms 
+# Image Colorization via AutoEncoders
+Colorizing black and white images via the use of AutoEncoders.
 
 ## Introduction 
 
@@ -21,13 +21,12 @@ To build an autoencoder, we need :
 
 ![image2](images/architecture.png)
 
-## Model 1 : 
+# Application of AutoEncoders in Image Colorization
 
-Attempting to convert black and white images to colorful ones via training black and white encoded images to decode to a colorful one.
+With the application of AutoEncoders, I am trying to colorize Black and white images, by providing these images as an input and a colored version of these images as a decoded output. The detailed model with implementation can be found [here](ImageColorization_attempt2.ipynb).
 
-### Dataset Creation :
-COCO-2017's validation dataset has been used over here to limited GPU capacity. Two different attempts are made via different model architecture. 
+## Dataset
+The COCO-2017 Dataset's validation directory is used over here in the model due to the system's limited storage capacity.
 
-1. The first model involves resizing images to dimensions of 256 and then converting them to black and white
-
-2. The second model involves resizing images to dimesions of 160x160.
+## Analysis
+A training dataset of 3000 images depicted a promising results, with the best ouputs in images regarding nature and animals.
