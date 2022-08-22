@@ -18,8 +18,7 @@ To build an autoencoder, we need :
 3. Loss Function to compare the outputs with the target
 
 #### Architecture
-
-![image2](images/architecture.png)
+<img src="images/architecture.png" width="600" height="400">
 
 ## Application of AutoEncoders in Image Colorization
 
