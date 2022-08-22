@@ -28,7 +28,7 @@ With the application of AutoEncoders, I am trying to colorize Black and white im
 The COCO-2017 Dataset's validation directory is used over here in the model due to the system's limited storage capacity.
 
 ### Model Architecture
-![image4](images/output.png)
+<img src="images/output.png" width="500" height="800">
 
 ### Analysis
 A training dataset of 3000 images depicted a promising result, performing best in images constituing flora and fauna.
